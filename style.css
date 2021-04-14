@@ -53,37 +53,120 @@ nav :hover
     {
     text-decoration:overline solid #0065fc;
     }
-
-    
+  
 .inscrire
- {#nav1
     {
-    /*padding: 50px 15px 10px 15px;*/
-    margin-right: 66px;
-    color:black;
-    }  
-
-#nav2
-    {
-    /*padding: 50px 15px 10px 15px;*/
-    color: black;
-    margin-right: 66px;
-    } 
-
-
-nav :hover
-    {
-    text-decoration:overline solid #0065fc;
-    }
-
-    
-.inscrire
- {
     display: flex;
     align-items: center;
     color: #0065fc;
     margin-left: 35px;
     margin-right: 20px;
     /*padding: 0px 15px 0px 15px;*/
-  }
+    }
 
+.main h1
+    {
+    font-size: 20px;
+    margin-left: 50px;
+    }
+  
+.main p
+  {
+    font-size: 15px;
+    margin-left: 50px
+  }
+  
+#Recherche
+    {
+    font-size: 14px;
+    margin-left: 50px 
+    }
+.Localisation
+    {
+    background-color:#f2f2f2 ;
+    border: none;
+    color: black;
+    padding: 11px 15px;
+    display: inline-block;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+    }
+  
+.lieu
+    {
+    background-color: white;
+    position: relative;
+    width: 179px;
+    height: 38px;
+    display: inline-block;
+    margin: -4px;
+    border: 1.5px solid #f2f2f2;
+    font-size: 17px;
+    padding-right: 57px;
+    }
+
+.Search
+    {
+    background-color: #0065fc;
+    color: white;
+    padding: 10px 10px;
+    display: inline-block;
+    border: 1.5px solid #f2f2f2;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    }
+  
+.container 
+    {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    } 
+  
+.container p
+    {
+    margin-right: 25px;
+    }
+  
+.Filtre
+    {
+    background-color: white;
+    color:black;
+    padding: 13px 13px;
+    text-decoration:black ;
+    display: inline-block;
+    padding-left: 55px;
+    border: 2px solid #f2f2f2;
+    border-radius: 20px;
+    position: relative;
+    margin-right: 20px;
+    font-size: 13px;
+    }
+  
+.Icon
+    {
+    background-color:#deebff;
+    color: #0065fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    height: 43px;
+    width: 46px;
+    font-size: 18px;
+    }
+  
+.Info
+    {background-color: white;
+    color: #0065fc;
+    display: inline-block;
+    margin: 25px 23px 30px -1px;
+    border-radius: 10px;
+    border: 1px solid #deebff;
+    }
+  

@@ -476,3 +476,41 @@ h3
     border-top-left-radius: 25px;
     border-top-right-radius: 25px; 
     }
+
+.footer
+    {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-around;
+    }
+
+.footer p
+    {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    }   
+
+.footer a
+    {
+    color: black;
+    }
+
+.footer h2
+    {
+    padding-top: 15px;
+    }
+
+.A_propos
+    {
+    margin-left: -75px;
+    }
+
+.Nos_hebergements
+    {
+    margin-left: -17px;
+    }
+
+.Assitance
+    {
+    margin-right: 142px;
+    }

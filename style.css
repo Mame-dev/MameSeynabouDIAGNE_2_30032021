@@ -169,4 +169,110 @@ nav :hover
     border-radius: 10px;
     border: 1px solid #deebff;
     }
-  
+
+#Hebergements
+    {
+    display: flex;
+    justify-content: space-between; 
+    }
+
+.Marseille
+    {
+    flex: 100%;
+    background-color: #f2f2f2;
+    height: 622px;
+    width: 878px;
+    margin: 0 auto;
+    margin: 0 0 20px 39px;
+    padding: 25px 16px 0px 0px;
+    border-radius: 25px;
+    }
+
+.titre1
+    {
+    display: flex;
+    padding: 0 0 0 19px;
+    }
+
+.contain
+    {
+    display: flex;
+    flex-wrap: wrap;
+    height: 480px;
+    margin-left: 38px;
+    margin-bottom: -72px;
+    }
+
+.bloc
+    {
+    border-radius: 25px;
+    height: 200px;
+    width: 246px;
+    margin-left: 20px;
+    box-shadow: 0 0 6px 3px #b1b1b14b;
+    background-color: white;
+    }
+
+.bloc img
+    {
+    height: 103px;
+    width: 232px;
+    object-fit: cover;
+    border-top-left-radius: 25px;
+    position: relative;
+    top: 7px;
+    left: 8px;
+    border-top-right-radius: 25px;
+    background-color: #fff;
+    }
+
+.text
+    {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px; 
+    }
+
+.text h3
+    {
+    font-size: 18px;
+    }
+
+.text p
+    {
+    font-size: 13px;
+    margin-top: -12px;
+    margin-left: 1px;
+    }
+
+.star
+    {
+    margin-top: -7px;
+    margin-left: 14px;
+    }
+
+h3
+    {
+    color: black;
+    }
+
+.nuit
+    {
+    color: black;
+    }
+
+.checked
+    {
+    color: #0065fc;
+    }
+
+.etoile
+    {
+    color: #f2f2f2;
+    }
+
+.afficher
+    {
+    /*margin-left: 25px;*/
+    margin-top: 86px;
+    }

@@ -162,7 +162,8 @@ nav :hover
     }
   
 .Info
-    {background-color: white;
+    {
+    background-color: white;
     color: #0065fc;
     display: inline-block;
     margin: 25px 23px 30px -1px;
@@ -180,48 +181,43 @@ nav :hover
     {
     flex: 100%;
     background-color: #f2f2f2;
-    height: 622px;
-    width: 878px;
-    margin: 0 auto;
-    margin: 0 0 20px 39px;
-    padding: 25px 16px 0px 0px;
+    margin: 0 0 23px 38px;
     border-radius: 25px;
     }
 
 .titre1
     {
     display: flex;
-    padding: 0 0 0 19px;
+    padding: 19px 0 0 32px;
     }
 
 .contain
     {
     display: flex;
     flex-wrap: wrap;
-    height: 480px;
-    margin-left: 38px;
-    margin-bottom: -72px;
+    justify-content: space-evenly;
+    margin-right: 14px;
     }
 
 .bloc
     {
     border-radius: 25px;
-    height: 200px;
-    width: 246px;
     margin-left: 20px;
+    margin-bottom: 30px;
     box-shadow: 0 0 6px 3px #b1b1b14b;
     background-color: white;
     }
 
 .bloc img
     {
-    height: 103px;
-    width: 232px;
+    height: 98px;
+    width: 198px;
+    margin-right: 11px;
     object-fit: cover;
     border-top-left-radius: 25px;
     position: relative;
     top: 7px;
-    left: 8px;
+    left: 6px;
     border-top-right-radius: 25px;
     background-color: #fff;
     }
@@ -235,20 +231,21 @@ nav :hover
 
 .text h3
     {
-    font-size: 18px;
+    font-size: 14px;
     }
 
 .text p
     {
-    font-size: 13px;
-    margin-top: -12px;
-    margin-left: 1px;
+    font-size: 14px;
+    margin-top: 2px;
+    margin-left: -1px;
     }
 
 .star
     {
-    margin-top: -7px;
-    margin-left: 14px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+    font-size: 14px;
     }
 
 h3
@@ -273,21 +270,18 @@ h3
 
 .afficher
     {
-    /*margin-left: 25px;*/
-    margin-top: 86px;
+    margin-top: 75px;
+    padding-bottom: 22px;
+    position: relative;
+    bottom: 24px;
     }
 
 .Populaires
     {
-    /*flex: 40%;*/
     background-color: #f2f2f2;
-    height: 622px;
-    height: 646px;
-    width: 421px;
-    margin: 0 33px 0 0px;
-    padding: 28px 0px 0px 0px;
+    margin-left: 84px;
+    padding-bottom: 60px;
     border-radius: 25px;
-    /*margin-bottom: 25px; */
     }
  
 .titre2

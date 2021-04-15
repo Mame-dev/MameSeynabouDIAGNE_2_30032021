@@ -179,7 +179,7 @@ nav :hover
 
 .Marseille
     {
-    flex: 100%;
+    /*flex: 100%;*/
     background-color: #f2f2f2;
     margin: 0 0 23px 38px;
     border-radius: 25px;
@@ -270,7 +270,7 @@ h3
 
 .afficher
     {
-    margin-top: 75px;
+    /*margin-top: 75px;*/
     padding-bottom: 22px;
     position: relative;
     bottom: 24px;
@@ -279,23 +279,32 @@ h3
 .Populaires
     {
     background-color: #f2f2f2;
-    margin-left: 84px;
-    padding-bottom: 60px;
+    padding-right: 109px;
     border-radius: 25px;
+    margin: 0px 58px 0 50px;    
     }
  
 .titre2
     {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 19px 0 0 32px;
+    }
+
+.titre2 i
+    {
+    font-size: 24px;
+    position: relative;
+    left: 63px; 
     }
 
 .contain2
     {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    position: relative;
+    left: 50px;
     }  
 
 .bloc2
@@ -303,22 +312,20 @@ h3
     border-radius: 25px;
     box-shadow: 0 0 6px 3px #b1b1b14b;
     background-color: #fff;
-    width: 340px;
-    height: 145px;
-    margin-top: 35px;
-    margin-left: -5px;
+    margin-bottom: 31px;
+    padding: 14px 44px 6px 65px;
     }
 
 .bloc2 img
     {
-    height: 135px;
-    width: 127px;
+    height: 151px;
+    width: 144px;
     object-fit: cover;
     border-top-left-radius: 25px;
     position: relative;
-    margin-bottom: 25px;
-    top: 5px;
-    left: 5px;
+    margin-bottom: -49px;
+    bottom: 6px;
+    right: 59px;
     border-bottom-left-radius: 25px;
     }
 
@@ -326,7 +333,7 @@ h3
     { 
     display: flex;
     flex-direction: column;
-    margin-top: -153px;
+    margin-top: -135px;
     margin-left: 162px; 
     }   
 
@@ -343,7 +350,7 @@ h3
 
 .star2
     {
-    margin-left: 162px;
+    margin-left: 155px;
     }
 
 .Activites
@@ -358,9 +365,16 @@ h3
     margin-left: 40px;
     }
 
+.titre3
+    {
+    display: flex;
+    padding-left: 46px;
+    padding-bottom: 30px;
+    }
+
 .Activites h2
     {
-    margin-left: 40px;
+    /*margin-left: 40px;*/
     }
 
 .Activites h3

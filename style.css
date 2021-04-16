@@ -32,21 +32,29 @@ a:link
     align-items: center;
     justify-content: space-around;
     list-style: none;
-    margin-right: 66px;
-    color:black;
+    /*margin-right: 66px;
+    color:black;*/
     }
 
 #nav1
     {
-    margin-right: 66px;
+    /*margin-right: 66px;*/
     color:black;
+    padding: 65px 53px 10px 20px;
     }  
 
 #nav2
     {
     color: black;
-    margin-right: 66px;
+    /*margin-right: 66px;*/
+    padding: 65px 20px 10px 20px;
     } 
+   
+    
+/*#nav2 :visited
+{
+color: #0065fc;
+}*/
 
 nav :hover
     {
@@ -59,9 +67,8 @@ nav :hover
     display: flex;
     align-items: center;
     color: #0065fc;
-    margin-left: 35px;
     margin-right: 20px;
-    /*padding: 0px 15px 0px 15px;*/
+    padding: 1px 17px 0px 35px;
     }
 
 .main h1
@@ -106,6 +113,17 @@ nav :hover
     }
 
 .Search
+    {
+    background-color: #0065fc;
+    color: white;
+    padding: 10px 10px;
+    display: inline-block;
+    border: 1.5px solid #f2f2f2;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    }
+
+.Search2
     {
     background-color: #0065fc;
     color: white;

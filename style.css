@@ -38,24 +38,27 @@ a:link
 
 #nav1
     {
-    /*margin-right: 66px;*/
-    color:black;
+    /*margin-right: 66px;
+    color:black;*/
     padding: 65px 53px 10px 20px;
     }  
+ 
+/*visited link */
+nav a:visited {
+    color: black;
+  }
+  
+ /*mouse over link */
+nav a:hover {
+    color: #0065fc;}
 
 #nav2
     {
-    color: black;
-    /*margin-right: 66px;*/
+    /*color: black;
+    margin-right: 66px;*/
     padding: 65px 20px 10px 20px;
     } 
    
-    
-/*#nav2 :visited
-{
-color: #0065fc;
-}*/
-
 nav :hover
     {
     border-top:1px solid #0065fc;
@@ -378,7 +381,6 @@ h3
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: stretch;
-    height: 445px;
     margin-bottom: 58px;
     margin-left: 40px;
     }
@@ -401,12 +403,13 @@ h3
     }
 
 #Activites1
-    { 
+    { flex: 1;
     background: white;
     width:  303px;
     height: 445px;
     border-radius: 25px;
     box-shadow: 0px 0px 10px 1px grey;
+    margin: 0 36px 0 0;
     }
   
 .image1
@@ -419,12 +422,13 @@ h3
     }
 
 #Activites2
-    {
+    {flex-basis: 60%;
     background: white;
     width: 305px;
     height: 235px;
     border-radius: 25px;
     box-shadow: 0px 0px 10px 1px grey;
+    margin: -449px 0 35px 350px;
     }
  
 .image2
@@ -437,12 +441,13 @@ h3
     }
 
 #Activites3
-    {
+    {flex-basis: 35%;
     background: white;
     width: 303px;
     height: 165px;
     border-radius: 25px;
     box-shadow: 0px 0px 10px 1px grey;
+    margin: 16px 0 35px 350px;
     }
 
 .image3
@@ -461,6 +466,7 @@ h3
     height: 445px;
     border-radius: 25px;
     box-shadow: 0px 0px 10px 1px grey;
+    margin: -488px 0 35px 699px;
     }
 
 .image4
@@ -473,12 +479,13 @@ h3
     }
 
 #Activites5
-    {
+    {flex-basis: 45%;
     background: white;
     width:  303px;
     height: 195px;
     border-radius: 25px;
     box-shadow: 0px 0px 10px 1px grey;
+    margin: -478px 0 35px 1044px;
     }
 
 .image5
@@ -492,12 +499,13 @@ h3
     }
 
 #Activites6
-    {
+    {flex-basis: 45%;
     background: white;
     width:  303px;
     height: 212px;
     border-radius: 25px;
     box-shadow: 0px 0px 10px 1px grey;
+    margin: -6px 0 35px 1048px;
     }
 
 .image6

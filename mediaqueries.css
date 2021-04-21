@@ -1,13 +1,9 @@
-@media screen and (min-device-width: 414px) and (max-device-height: 736px)
-{
-    header 
-        {
+@media screen and (min-device-width: 414px) and (max-device-height: 736px) {
+    header {
         margin: 15px;
         padding: 15px;
-        }
-       
-    nav
-        {
+    }
+    nav {
         padding-bottom: 15px;
         flex-grow: 1;
         order: 3;
@@ -15,149 +11,103 @@
         /*margin-left: -35px;*/
         margin-right: 188px;
         margin-bottom: -121px;
-        }
-
-    #nav1
-        {
+    }
+    #nav1 {
         border-bottom: 2px solid #0065fc;
         padding-bottom: 15px;
-        }
-
-    #nav2
-        {
+    }
+    #nav2 {
         border-bottom: 2px solid #0065fc;
         padding-bottom: 15px;
-        }
-      
-    /*.navheader:hover 
-        {
+    }
+    .navheader:hover {
         border-top: none;
-        color: #0065fc;;
+        color: #0065fc;
+        ;
         padding-bottom: 60px;
         border-bottom: 2px solid #0065fc;
-        }*/
-      
-    .bar 
-        {
-            display: flex;
-            flex-direction: column-reverse;
-            align-items: normal;
-        }
-      
-    .inscrire
-        {display: flex;
-            flex-direction: row-reverse;
-            position: relative;
-            bottom: -15px;
-            left: 25px;
-            text-decoration: none;
+    }
+    .bar {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: normal;
+    }
+    .inscrire {
+        display: flex;
+        flex-direction: row-reverse;
+        position: relative;
+        bottom: -15px;
+        left: 25px;
+        text-decoration: none;
         font-size: 20px;
-        }
-
-    .page   
-        {
+    }
+    .page {
         padding-left: 0;
         padding-right: 0;
-        }
-
-    #Hebergements
-        {
+    }
+    #Hebergements {
         display: flex;
         flex-direction: column-reverse !important;
         align-items: normal;
-        }
-    
-    .Populaires
-        {
+    }
+    .Populaires {
         margin-bottom: 50px;
-        }
-    
-    .contain2
-        {
+    }
+    .contain2 {
         margin: auto;
-        }
-
-    .bloc2
-        {
+    }
+    .bloc2 {
         width: 274px;
         margin-left: 0;
-        }
-
-    .bloc2 img 
-        {
+    }
+    .bloc2 img {
         width: 100px;
-        }
-            
-    .Marseille 
-        {
+    }
+    .Marseille {
         background-color: #fff;
-        }
-    .contain
-        {
+    }
+    .contain {
         display: flex;
         flex-direction: column;
-        }
-    .bloc
-        {
+    }
+    .bloc {
         flex: 0;
         flex-direction: column;
-        }
-
-    .Activites
-        {
+    }
+    .Activites {
         margin-bottom: 10px;
-        }
-
-    #Activites1
-        {
+    }
+    #Activites1 {
         margin: 0 0 44px 0;
-        }
-
-    #Activites2
-        { 
+    }
+    #Activites2 {
         margin: 0 0 44px 0;
-        }
-
-    #Activites3
-        { 
+    }
+    #Activites3 {
         margin: 0 0 44px 0;
-        }
-
-    #Activites4
-        { 
+    }
+    #Activites4 {
         margin: 0 0 44px 0;
-        }
-
-    #Activites5
-        {
+    }
+    #Activites5 {
         margin: 0 0 44px 0;
-        }
-
-    #Activites6
-        { 
+    }
+    #Activites6 {
         margin: 0 0 44px 0;
-        }
-    
-    .footer    
-            {
-            background-color: #f2f2f2;
-            flex-direction: column;
-            /*margin-left: 29px;
+    }
+    .footer {
+        background-color: #f2f2f2;
+        flex-direction: column;
+        /*margin-left: 29px;
             margin-right: 30px;*/
-            }
-
-        .A_propos 
-            {
-            margin-left: 49px;
-            }
-
-        .Nos_hebergements 
-            {
-            margin-left: 49px;
-            }
-
-        .Assistance
-            {
-            margin-left: 49px;
-            }
+    }
+    .A_propos {
+        margin-left: 49px;
+    }
+    .Nos_hebergements {
+        margin-left: 49px;
+    }
+    .Assistance {
+        margin-left: 49px;
+    }
 }

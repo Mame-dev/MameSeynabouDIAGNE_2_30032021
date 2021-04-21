@@ -164,7 +164,9 @@ nav a:hover {
 
 #Hebergements {
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
+    flex-flow: wrap;
+    width: 57%;
 }
 
 .Marseille {
@@ -188,21 +190,22 @@ nav a:hover {
 
 .bloc {
     border-radius: 25px;
-    margin-left: 20px;
-    margin-bottom: 30px;
+    margin-top: 30px;
     box-shadow: 0 0 6px 3px #b1b1b14b;
     background-color: white;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+    height: 200px;
 }
 
 .bloc img {
-    height: 98px;
-    width: 198px;
+    height: 55%;
+    width: 100%;
     margin-right: 11px;
     object-fit: cover;
     border-top-left-radius: 25px;
-    position: relative;
-    top: 7px;
-    left: 6px;
     border-top-right-radius: 25px;
     background-color: #fff;
 }
@@ -254,7 +257,7 @@ h3 {
 
 .Populaires {
     background-color: #f2f2f2;
-    padding-right: 109px;
+    padding: 0 60px 0 60px;
     border-radius: 25px;
     margin: 0px 58px 0 50px;
 }
@@ -275,8 +278,7 @@ h3 {
 .contain2 {
     display: flex;
     flex-direction: column;
-    position: relative;
-    left: 50px;
+    align-items: center;
 }
 
 .bloc2 {
@@ -284,39 +286,38 @@ h3 {
     box-shadow: 0 0 6px 3px #b1b1b14b;
     background-color: #fff;
     margin-bottom: 31px;
-    padding: 14px 44px 6px 65px;
+    display: flex;
+    min-width: 51%;
+    width: 69%;
+    height: 150px;
+    margin: 20px;
 }
 
 .bloc2 img {
-    height: 151px;
-    width: 144px;
+    width: 48%;
     object-fit: cover;
     border-top-left-radius: 25px;
-    position: relative;
-    margin-bottom: -49px;
-    bottom: 6px;
-    right: 59px;
     border-bottom-left-radius: 25px;
+    margin: 4px;
 }
 
-.text2 {
-    display: flex;
-    flex-direction: column;
-    margin-top: -135px;
-    margin-left: 162px;
+.pop_contain2 {
+    display: column;
+    margin: 10px
 }
 
-.text2 h3 {
+.pop_contain2 h3 {
     font-size: 18px;
+    margin-top: 5px;
 }
 
-.text2 p {
+.pop_contain2 p {
     font-size: 13px;
-    margin-left: 1px;
+    margin: 5px 0 40px 0;
 }
 
 .star2 {
-    margin-left: 155px;
+    display: flex;
 }
 
 .Activites {
@@ -342,6 +343,7 @@ h3 {
 .Activites h3 {
     margin-left: 22px;
 }
+
 
 #Activites1 {
     flex: 1;

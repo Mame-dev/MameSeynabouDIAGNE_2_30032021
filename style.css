@@ -92,7 +92,7 @@ nav a:hover {
     padding-right: 57px;
 }
 
-.Search {
+.Search{
     background-color: #0065fc;
     color: white;
     padding: 10px 10px;
@@ -102,7 +102,7 @@ nav a:hover {
     border-bottom-right-radius: 13px;
 }
 
-.Search2 {
+/*.Search2{
     background-color: #0065fc;
     color: white;
     padding: 10px 10px;
@@ -110,7 +110,9 @@ nav a:hover {
     border: 1.5px solid #f2f2f2;
     border-top-right-radius: 13px;
     border-bottom-right-radius: 13px;
-}
+    position: relative;
+    right: 15%;
+}*/
 
 .container {
     display: flex;
@@ -164,13 +166,9 @@ nav a:hover {
 
 #Hebergements {
     display: flex;
-    /*justify-content: space-between;*/
-    flex-flow: wrap;
-    width: 57%;
 }
 
 .Marseille {
-    /*flex: 100%;*/
     background-color: #f2f2f2;
     margin: 0 0 23px 38px;
     border-radius: 25px;
@@ -217,19 +215,19 @@ nav a:hover {
 }
 
 .text h3 {
-    font-size: 14px;
+    font-size: 17px;
 }
 
 .text p {
     font-size: 14px;
-    margin-top: 2px;
-    margin-left: -1px;
+    margin-top: -13px;
+    margin-left: 0px;
 }
 
 .star {
     margin-bottom: 10px;
     margin-left: 12px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 h3 {
@@ -249,7 +247,7 @@ h3 {
 }
 
 .afficher {
-    /*margin-top: 75px;*/
+    margin-top: 75px;
     padding-bottom: 22px;
     position: relative;
     bottom: 24px;
@@ -257,7 +255,6 @@ h3 {
 
 .Populaires {
     background-color: #f2f2f2;
-    padding: 0 60px 0 60px;
     border-radius: 25px;
     margin: 0px 58px 0 50px;
 }
@@ -265,20 +262,19 @@ h3 {
 .titre2 {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 19px 0 0 32px;
+    justify-content: space-around;
+    padding-top: 19px;
 }
 
 .titre2 i {
     font-size: 24px;
-    position: relative;
-    left: 63px;
 }
 
 .contain2 {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
 }
 
 .bloc2 {
@@ -287,14 +283,14 @@ h3 {
     background-color: #fff;
     margin-bottom: 31px;
     display: flex;
-    min-width: 51%;
-    width: 69%;
-    height: 150px;
+    width: 78%;
+    height: 156px;
     margin: 20px;
 }
 
 .bloc2 img {
-    width: 48%;
+    width: 47%;
+    height: 95%;
     object-fit: cover;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;

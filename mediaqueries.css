@@ -1,4 +1,7 @@
-@media screen and (min-width: 414px) and (max-width: 736px) {
+@media screen (max-width: 667px) {
+    body{
+        margin: 0;
+    }
     #logo {
         margin: 0;
     }
@@ -42,8 +45,11 @@
         display: inline-block;
         margin-top: 15px;
     }
+    .Search{
+        display: none;
+    }
     .container-filtre {
-        margin-left: 10%;
+        margin-left: -1%;
     }
     .Filtre {
         margin-top: 18px;

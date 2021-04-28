@@ -1,26 +1,22 @@
-@media screen (max-width: 667px) {
-    body{
+@media screen and (max-device-width: 667px) {
+    body {
         margin: 0;
     }
     #logo {
-        margin: 0;
+        width: auto;
     }
     .bar {
         flex-direction: column-reverse;
-        width: 100%;
+        width: 78%;
     }
     nav {
         width: 83%;
     }
     nav li {
-        display: inline-flex;
-        justify-content: space-around;
         margin: 0;
         padding-bottom: 10px;
         border-bottom: 2px #f2f2f2 solid;
-        position: relative;
         width: 86%;
-        right: 36%;
     }
     nav li:hover {
         border-bottom: 2px solid;
@@ -45,7 +41,7 @@
         display: inline-block;
         margin-top: 15px;
     }
-    .Search{
+    .Search {
         display: none;
     }
     .container-filtre {
@@ -72,8 +68,8 @@
         margin: auto;
     }
     .bloc2 {
-        margin: 10px;
-        width: auto;
+        margin: 28px 12px;
+        width: 100%;
     }
     .bloc2 img {
         width: 40%;
@@ -93,10 +89,15 @@
     .Activites {
         margin-bottom: 10px;
     }
+    .titre3 {
+        margin-top: auto;
+    }
     .contain3 {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin: 0 0 50px 0;
+        height: auto;
     }
     #bloc3_1 {
         border-radius: 25px;

@@ -1,3 +1,5 @@
+/*Iphone8*/
+
 @media screen and (max-device-width: 667px) {
     body {
         margin: 0;
@@ -65,6 +67,175 @@
         border-radius: initial;
     }
     .contain2 {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .bloc2 {
+        width: 100%;
+        height: 26em;
+    }
+    .bloc2 img {
+        width: 40%;
+        height: 24em;
+        margin: 15px;
+    }
+    .Marseille {
+        background-color: #fff;
+        margin: 0 9px;
+    }
+    .contain {
+        flex-direction: column;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .bloc {
+        width: auto;
+        height: 26em;
+    }
+    .bloc img {
+        height: 20em;
+    }
+    .Activites {
+        margin-bottom: 10px;
+    }
+    .titre3 {
+        margin-top: auto;
+    }
+    .contain3 {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    #bloc3_1 {
+        width: auto;
+        height: 26em;
+    }
+    #bloc3_1 img {
+        height: 21em;
+    }
+    #bloc3_2 {
+        width: auto;
+        height: 26em;
+    }
+    #bloc3_2 img {
+        height: 21em;
+    }
+    #bloc3_3 {
+        width: auto;
+        height: 26em;
+    }
+    #bloc3_3 img {
+        height: 21em;
+    }
+    #bloc3_4 {
+        width: auto;
+        height: 26em;
+    }
+    #bloc3_4 img {
+        height: 21em;
+    }
+    #bloc3_5 {
+        width: auto;
+        height: 26em;
+    }
+    #bloc3_5 img {
+        height: 21em;
+    }
+    #bloc3_6 {
+        width: auto;
+        height: 26em;
+    }
+    #bloc3_6 img {
+        height: 21em;
+    }
+    .footer {
+        background-color: #f2f2f2;
+        flex-direction: column;
+    }
+    .A_propos {
+        margin-left: 49px;
+    }
+    .Nos_hebergements {
+        margin-left: 49px;
+    }
+    .Assistance {
+        margin-left: 49px;
+    }
+}
+
+/*Tablette*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    body {
+        margin: 0;
+    }
+    #logo {
+        width: auto;
+    }
+    .bar {
+        flex-direction: column-reverse;
+        width: 78%;
+    }
+    nav {
+        width: 83%;
+    }
+    nav li {
+        margin: 0;
+        padding-bottom: 10px;
+        border-bottom: 2px #f2f2f2 solid;
+        width: 86%;
+    }
+    nav a:visited {
+        color: black;
+    }
+    nav li:hover {
+        border-bottom: 2px solid;
+        padding-bottom: 10px;
+        color: #0065fc;
+    }
+    nav li a {
+        padding: 0;
+        margin: 27px 47px 0 20px;
+    }
+    nav li a:hover {
+        border-top: none;
+    }
+    .inscrire {
+        align-self: flex-end;
+        font-size: large;
+    }
+    .main h1 {
+        font-size: 21px;
+    }
+    .container {
+        display: inline-block;
+        margin-top: 15px;
+    }
+    .Search {
+        display: none;
+    }
+    .container-filtre {
+        margin-left: -1%;
+    }
+    .Filtre {
+        margin-top: 18px;
+        margin-left: 8%;
+    }
+    .Info {
+        margin: 9px 12px 3px 0;
+        font-size: initial;
+    }
+    #Hebergements {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .Populaires {
+        margin: auto;
+        border-radius: initial;
+    }
+    .contain2 {
         margin: auto;
     }
     .bloc2 {
@@ -83,8 +254,11 @@
         margin: auto;
     }
     .bloc {
-        flex-direction: column;
         width: auto;
+        height: 26em;
+    }
+    .bloc img {
+        height: 20em;
     }
     .Activites {
         margin-bottom: 10px;
@@ -95,123 +269,49 @@
     .contain3 {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        margin: 0 0 50px 0;
         height: auto;
     }
     #bloc3_1 {
-        border-radius: 25px;
-        margin-top: 30px;
-        box-shadow: 0 0 6px 3px #b1b1b14b;
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        width: 68%;
-        height: 93%;
+        width: auto;
+        height: 16em;
     }
     #bloc3_1 img {
-        height: 85%;
         width: 100%;
-        margin-right: 11px;
-        object-fit: cover;
-        border-top-left-radius: 25px;
-        border-top-right-radius: 25px;
-        background-color: #fff;
     }
     #bloc3_2 {
-        border-radius: 25px;
-        margin-top: 30px;
-        box-shadow: 0 0 6px 3px #b1b1b14b;
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        width: 80%;
-        height: 50%;
+        width: auto;
+        height: 16em;
     }
     #bloc3_2 img {
-        height: 76%;
         width: 100%;
-        margin-right: 11px;
-        object-fit: cover;
-        border-top-left-radius: 25px;
-        border-top-right-radius: 25px;
-        background-color: #fff;
     }
     #bloc3_3 {
-        border-radius: 25px;
-        margin-top: 30px;
-        box-shadow: 0 0 6px 3px #b1b1b14b;
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        width: 79%;
-        height: 37%;
+        width: auto;
+        height: 16em;
     }
     #bloc3_3 img {
-        height: 68%;
         width: 100%;
-        margin-right: 11px;
-        object-fit: cover;
-        border-top-left-radius: 25px;
-        border-top-right-radius: 25px;
-        background-color: #fff;
     }
     #bloc3_4 {
-        border-radius: 25px;
-        margin-top: 30px;
-        box-shadow: 0 0 6px 3px #b1b1b14b;
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        width: 77%;
-        height: 93%;
+        width: auto;
+        height: 16em;
     }
     #bloc3_4 img {
-        height: 85%;
         width: 100%;
-        margin-right: 11px;
-        object-fit: cover;
-        border-top-left-radius: 25px;
-        border-top-right-radius: 25px;
-        background-color: #fff;
     }
     #bloc3_5 {
-        border-radius: 25px;
-        margin-top: 30px;
-        box-shadow: 0 0 6px 3px #b1b1b14b;
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        width: 84%;
-        height: 43%;
+        width: auto;
+        height: 16em;
     }
     #bloc3_5 img {
-        height: 67%;
         width: 100%;
-        margin-right: 11px;
-        object-fit: cover;
-        border-top-left-radius: 25px;
-        border-top-right-radius: 25px;
-        background-color: #fff;
     }
     #bloc3_6 {
-        border-radius: 25px;
-        margin-top: 30px;
-        box-shadow: 0 0 6px 3px #b1b1b14b;
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        width: 84%;
-        height: 43%;
+        width: auto;
+        height: 16em;
     }
     #bloc3_6 img {
-        height: 69%;
         width: 100%;
-        margin-right: 11px;
-        object-fit: cover;
-        border-top-left-radius: 25px;
-        border-top-right-radius: 25px;
-        background-color: #fff;
     }
     .footer {
         background-color: #f2f2f2;

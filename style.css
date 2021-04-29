@@ -1,3 +1,5 @@
+/*Desktop*/
+
 html {
     font-family: 'Raleway', sans-serif;
 }
@@ -33,7 +35,8 @@ nav li {
     list-style: none;
     margin: 0px 14px 40px 50px;
 }
-nav a{
+
+nav a {
     padding-top: 35px;
 }
 

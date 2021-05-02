@@ -4,6 +4,10 @@ html {
     font-family: 'Raleway', sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -26,6 +30,10 @@ a:link {
 nav {
     display: flex;
     align-items: center;
+}
+
+nav ul{
+    display: contents;
 }
 
 nav li {

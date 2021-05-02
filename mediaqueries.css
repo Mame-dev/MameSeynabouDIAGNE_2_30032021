@@ -1,24 +1,21 @@
-/*Iphone8*/
+/*Iphone*/
 
 @media screen and (max-device-width: 667px) {
-    body {
-        margin: 0;
-    }
     #logo {
         width: auto;
+        margin: 21px 0 22px 25px;
     }
     .bar {
         flex-direction: column-reverse;
-        width: 78%;
     }
     nav {
-        width: 83%;
+        position: relative;
+        right: 5em;
     }
     nav li {
         margin: 0;
         padding-bottom: 10px;
         border-bottom: 2px #f2f2f2 solid;
-        width: 86%;
     }
     nav li:hover {
         border-bottom: 2px solid;
@@ -34,10 +31,20 @@
     }
     .inscrire {
         align-self: flex-end;
-        font-size: large;
+        font-size: medium;
+        margin: 35px 72px 15px 36px;
     }
     .main h1 {
-        font-size: 21px;
+        margin-left: 25px;
+        font-size: x-large;
+    }
+    .main p {
+        margin-left: 25px;
+    }
+    #Recherche {
+        font-size: xx-large;
+        margin-left: 25px;
+        margin-top: 25px;
     }
     .container {
         display: inline-block;
@@ -45,6 +52,23 @@
     }
     .Search {
         display: none;
+    }
+    .Search2 {
+        background-color: #0065fc;
+        color: white;
+        padding: 20px;
+        display: inline-block;
+        border: 1.5px solid #f2f2f2;
+        border-radius: 17px;
+    }
+    .Localisation {
+        padding: 20px 20px;
+    }
+    .lieu {
+        height: 56px;
+        margin: -7px;
+        padding-right: 25px;
+        font-size: 17px;
     }
     .container-filtre {
         margin-left: -1%;
@@ -66,22 +90,33 @@
         margin: auto;
         border-radius: initial;
     }
+    .titre2 h2 {
+        margin-right: 25px;
+    }
     .contain2 {
         margin-left: 15px;
         margin-right: 15px;
     }
     .bloc2 {
         width: 100%;
-        height: 26em;
+        height: 12em;
+        margin: 20px auto;
     }
     .bloc2 img {
-        width: 40%;
-        height: 24em;
-        margin: 15px;
+        width: 9em;
+        height: 11em;
+        margin: 8px;
+    }
+    .pop_contain2 p {
+        font-size: 13px;
+        margin: -3px 0 66px 0;
     }
     .Marseille {
         background-color: #fff;
         margin: 0 9px;
+    }
+    .titre1 {
+        padding: 15px 0 0 7px;
     }
     .contain {
         flex-direction: column;
@@ -90,16 +125,24 @@
     }
     .bloc {
         width: auto;
-        height: 26em;
+        height: 14em;
     }
     .bloc img {
-        height: 20em;
+        height: 7em;
+    }
+    .text p {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .afficher {
+        margin-top: 57px;
+        padding-bottom: 0;
     }
     .Activites {
-        margin-bottom: 10px;
+        margin-bottom: 50px;
     }
     .titre3 {
-        margin-top: auto;
+        margin-top: -9px -20px 0 15px;
     }
     .contain3 {
         display: flex;
@@ -110,45 +153,48 @@
     }
     #bloc3_1 {
         width: auto;
-        height: 26em;
+        height: 14em;
     }
     #bloc3_1 img {
-        height: 21em;
+        height: 10em;
     }
     #bloc3_2 {
         width: auto;
-        height: 26em;
+        height: 14em;
     }
     #bloc3_2 img {
-        height: 21em;
+        height: 10em;
     }
     #bloc3_3 {
         width: auto;
-        height: 26em;
+        height: 14em;
     }
     #bloc3_3 img {
-        height: 21em;
+        height: 10em;
     }
     #bloc3_4 {
         width: auto;
-        height: 26em;
+        height: 14em;
     }
     #bloc3_4 img {
-        height: 21em;
+        height: 10em;
     }
     #bloc3_5 {
         width: auto;
-        height: 26em;
+        height: 14em;
     }
     #bloc3_5 img {
-        height: 21em;
+        height: 10em;
     }
     #bloc3_6 {
         width: auto;
-        height: 26em;
+        height: 14em;
     }
     #bloc3_6 img {
-        height: 21em;
+        height: 10em;
+    }
+    .contain3 h3 {
+        margin-left: 20px;
     }
     .footer {
         background-color: #f2f2f2;
@@ -167,163 +213,10 @@
 
 /*Tablette*/
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    body {
-        margin: 0;
-    }
-    #logo {
-        width: auto;
-    }
-    .bar {
-        flex-direction: column-reverse;
-        width: 78%;
-    }
-    nav {
-        width: 83%;
-    }
-    nav li {
-        margin: 0;
-        padding-bottom: 10px;
-        border-bottom: 2px #f2f2f2 solid;
-        width: 86%;
-    }
-    nav a:visited {
-        color: black;
-    }
-    nav li:hover {
-        border-bottom: 2px solid;
-        padding-bottom: 10px;
-        color: #0065fc;
-    }
-    nav li a {
-        padding: 0;
-        margin: 27px 47px 0 20px;
-    }
-    nav li a:hover {
-        border-top: none;
-    }
-    .inscrire {
-        align-self: flex-end;
-        font-size: large;
-    }
-    .main h1 {
-        font-size: 21px;
-    }
-    .container {
-        display: inline-block;
-        margin-top: 15px;
-    }
-    .Search {
-        display: none;
-    }
-    .container-filtre {
-        margin-left: -1%;
-    }
-    .Filtre {
-        margin-top: 18px;
-        margin-left: 8%;
-    }
-    .Info {
-        margin: 9px 12px 3px 0;
-        font-size: initial;
-    }
+@media only screen and (min-device-width: 668px) and (max-device-width: 1024px) {
     #Hebergements {
         display: flex;
         flex-direction: column-reverse;
-    }
-    .Populaires {
-        margin: auto;
-        border-radius: initial;
-    }
-    .contain2 {
-        margin: auto;
-    }
-    .bloc2 {
-        margin: 28px 12px;
-        width: 100%;
-    }
-    .bloc2 img {
-        width: 40%;
-    }
-    .Marseille {
-        background-color: #fff;
-        margin: 0 9px;
-    }
-    .contain {
-        flex-direction: column;
-        margin: auto;
-    }
-    .bloc {
-        width: auto;
-        height: 26em;
-    }
-    .bloc img {
-        height: 20em;
-    }
-    .Activites {
-        margin-bottom: 10px;
-    }
-    .titre3 {
-        margin-top: auto;
-    }
-    .contain3 {
-        display: flex;
-        flex-direction: column;
-        height: auto;
-    }
-    #bloc3_1 {
-        width: auto;
-        height: 16em;
-    }
-    #bloc3_1 img {
-        width: 100%;
-    }
-    #bloc3_2 {
-        width: auto;
-        height: 16em;
-    }
-    #bloc3_2 img {
-        width: 100%;
-    }
-    #bloc3_3 {
-        width: auto;
-        height: 16em;
-    }
-    #bloc3_3 img {
-        width: 100%;
-    }
-    #bloc3_4 {
-        width: auto;
-        height: 16em;
-    }
-    #bloc3_4 img {
-        width: 100%;
-    }
-    #bloc3_5 {
-        width: auto;
-        height: 16em;
-    }
-    #bloc3_5 img {
-        width: 100%;
-    }
-    #bloc3_6 {
-        width: auto;
-        height: 16em;
-    }
-    #bloc3_6 img {
-        width: 100%;
-    }
-    .footer {
-        background-color: #f2f2f2;
-        flex-direction: column;
-    }
-    .A_propos {
-        margin-left: 49px;
-    }
-    .Nos_hebergements {
-        margin-left: 49px;
-    }
-    .Assistance {
-        margin-left: 49px;
+        align-items: normal;
     }
 }

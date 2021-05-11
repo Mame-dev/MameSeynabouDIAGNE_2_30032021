@@ -96,7 +96,6 @@ nav a:hover {
 .lieu {
     background-color: white;
     position: relative;
-    width: 179px;
     height: 38px;
     display: inline-block;
     margin: -4px;
@@ -165,8 +164,8 @@ nav a:hover {
     color: #0065fc;
     display: inline-block;
     margin: 25px 23px 30px -1px;
-    border-radius: 10px;
-    border: 1px solid #deebff;
+    border: 2px solid #f2f2f2;
+    border-radius: 20px;
 }
 
 #Hebergements {

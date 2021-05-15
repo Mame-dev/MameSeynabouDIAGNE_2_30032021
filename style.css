@@ -32,7 +32,7 @@ nav {
     align-items: center;
 }
 
-nav ul{
+nav ul {
     display: contents;
 }
 
@@ -80,14 +80,14 @@ nav a:hover {
 
 #Recherche {
     font-size: 14px;
-    margin-left: 50px
+    margin-left: 50px;
 }
 
 .Localisation {
     background-color: #f2f2f2;
     border: none;
     color: black;
-    padding: 11px 15px;
+    padding: 15px;
     display: inline-block;
     border-top-left-radius: 13px;
     border-bottom-left-radius: 13px;
@@ -96,22 +96,20 @@ nav a:hover {
 .lieu {
     background-color: white;
     position: relative;
-    height: 38px;
-    display: inline-block;
     margin: -4px;
     border: 1.5px solid #f2f2f2;
-    font-size: 17px;
-    padding-right: 57px;
+    font-size: 14px;
+    padding: 11px;
 }
 
 .Search {
     background-color: #0065fc;
     color: white;
-    padding: 10px 10px;
-    display: inline-block;
+    padding: 14px;
     border: 1.5px solid #f2f2f2;
     border-top-right-radius: 13px;
     border-bottom-right-radius: 13px;
+    cursor: pointer;
 }
 
 .Search2 {
@@ -130,18 +128,26 @@ nav a:hover {
     margin-right: 25px;
 }
 
+.container-filtre {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .Filtre {
     background-color: white;
     color: black;
     padding: 13px 13px;
-    text-decoration: black;
-    display: inline-block;
     padding-left: 55px;
     border: 2px solid #f2f2f2;
     border-radius: 20px;
     position: relative;
-    margin-right: 20px;
+    margin: 10px;
     font-size: 13px;
+    cursor: pointer;
+}
+
+.Filtre:hover {
+    background-color: #0065FC;
 }
 
 .Icon {
@@ -183,6 +189,10 @@ nav a:hover {
     padding: 19px 0 0 32px;
 }
 
+.titre1 h2 {
+    font-size: larger;
+}
+
 .contain {
     display: flex;
     flex-wrap: wrap;
@@ -219,11 +229,11 @@ nav a:hover {
 }
 
 .text h3 {
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .text p {
-    font-size: 14px;
+    font-size: 11px;
     margin-top: -13px;
     margin-left: 0px;
 }
@@ -231,7 +241,7 @@ nav a:hover {
 .star {
     margin-bottom: 10px;
     margin-left: 12px;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 h3 {
@@ -270,17 +280,26 @@ h3 {
     padding-top: 19px;
 }
 
+.titre2 h2 {
+    font-size: larger;
+}
+
 .titre2 i {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .contain2 {
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
     justify-content: center;
-    flex-flow: wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-
+@-moz-document url-prefix() {
+    .contain2 {
+    flex-direction: column;
+    }
+  }
 .bloc2 {
     border-radius: 25px;
     box-shadow: 0 0 6px 3px #b1b1b14b;
@@ -301,26 +320,29 @@ h3 {
 }
 
 .pop_contain2 {
-    display: column;
     margin: 10px
 }
 
 .pop_contain2 h3 {
-    font-size: 18px;
+    font-size: 15px;
     margin-top: 5px;
 }
 
 .pop_contain2 p {
-    font-size: 13px;
-    margin: 5px 0 40px 0;
+    font-size: 11px;
+    margin: -8px 0 25px 0;
 }
 
 .star2 {
-    display: flex;
+    font-size: 12px;
 }
 
 .titre3 {
     margin: 4vw 2.2vw 2vw 3.5vw;
+}
+
+.titre3 h2 {
+    font-size: larger;
 }
 
 .contain3 {
@@ -328,6 +350,11 @@ h3 {
     justify-content: space-between;
     margin: 0 3.3vw 3.5vw;
     height: 31.5vw;
+}
+
+.contain3 h3 {
+    font-size: 12px;
+    margin-left: 7px;
 }
 
 #bloc3_1 {
@@ -465,6 +492,7 @@ h3 {
 .footer p {
     padding-top: 6px;
     padding-bottom: 6px;
+    font-size: smaller;
 }
 
 .footer a {
@@ -473,6 +501,7 @@ h3 {
 
 .footer h2 {
     padding-top: 15px;
+    font-size: larger;
 }
 
 .A_propos {
